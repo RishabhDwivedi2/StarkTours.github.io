@@ -1,0 +1,440 @@
+/*----nav-1 section----*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+.nav-1{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    overflow: hidden;
+    height: 8vh;
+}
+#fb:hover{
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+#in:hover{
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+#tw:hover{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.nav-num a{
+    color: white;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+select{
+    margin-left: 110px;
+    outline: none;
+    background-color: black;
+    color: white;
+    padding: 9px 9px;
+    font-weight: 500;
+    cursor: pointer;
+}
+select:hover{
+    background-color: rgba(0, 0, 0, 0.836);
+}
+/*-----------------nav-2 section-----------------------*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 10vh;
+}
+
+.nav-logo{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    cursor: pointer;
+}
+.boom:hover{
+    cursor: pointer;
+    font-size: 41px;    
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.nav-menu ul li a{
+    color: rgba(0, 0, 0, 0.603);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 550;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.nav-menu ul li a:hover{
+    color: rgba(0, 0, 0, 0.993);
+}
+.btn-1{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.836);
+    padding: 15px 15px;
+    margin-left: 15px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.sticky{
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.123);
+}
+.btn-1:hover{
+    background-color: rgba(0, 0, 0, 0.726);
+    cursor: pointer;
+}
+/*-----------------main-1 section-----------------------*/
+.main-1{
+    background:linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.342)), url("Resources/1209573.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    animation: wallpaper 30s ease-in-out infinite;
+}
+.left{
+    position: relative;
+    top: 30%;
+}
+.para-1{
+    color: white;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.para-2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.right{
+    padding: 30px 30px;
+    background-color: white;
+    height: 68vh;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    box-shadow: -9px 9px 10px 10px rgba(0, 0, 0, 0.123);
+}
+.ask-1, .ask-2, .ask-3{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 6px;
+}
+.same{
+    padding: 10px;
+    width: 100%;    
+    margin: 7px;
+    background-color: rgba(177, 175, 175, 0.836);
+    outline: none;
+    border: none;
+}
+span{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;   
+    }
+.btn-2{
+    margin: 17px;
+    width: 80%;
+    padding: 9px 8px;
+    background-color: rgba(0, 0, 0, 0.836);
+     color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    outline: none;
+    border: none;
+}
+.btn-2:hover{
+    background-color: rgba(0, 0, 0, 0.726);
+    cursor: pointer;
+}
+/*----------------------main-2 section----------------------*/
+.main-2{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title p{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+hr{
+    outline: none;
+    border: none;
+    width: 1%;
+    text-align: center;
+    height: 4px;
+    background-color: rgb(46, 231, 46);
+    animation: stretch  4s linear infinite;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    overflow: hidden;
+}
+.tab{
+    padding: 20px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+}
+.price{
+    color: orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 600;
+}
+.price:hover{
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+h2:hover{
+    font-size: 19px;
+    cursor: pointer;
+}
+@keyframes stretch {
+    100%{
+        width: 37%;
+    }
+}
+@keyframes wallpaper {
+    0%{
+    background:linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.342)), url("Resources/1209573.jpg");
+    background-size: cover;
+    height: 100vh;
+    }
+    25%{
+    background:linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.342)), url("wallpaper/wp2468649-university-wallpapers.jpg");
+    background-size: cover;
+    height: 100vh;   
+}
+    50%{
+    background:linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.342)), url("wallpaper/wp2468656-university-wallpapers.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+    75%{
+    background:linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.342)), url("wallpaper/wp2468660-university-wallpapers.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+    100%{
+    background:linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.342)), url("wallpaper/wp2468676-university-wallpapers.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+}
+@media (max-width:1210px){
+    .title{
+        margin-bottom: 30px;
+    }
+    .gallery{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tab{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 30vh;
+        width: 60%;
+        padding: 20px;
+        margin: 50px;
+    }
+}
+@media (max-width:958px){
+    .title{
+        margin-bottom: 10px;
+    }
+    .right{
+        display: none;
+    }
+    .para-1{
+        font-size: 70px;
+    }
+    .para-2{
+        text-align: center;
+    }
+    li{
+        display: none;
+    }
+    .title p{
+        font-size: 30px;
+    }
+    .nav-logo p{
+        font-size: 40px;
+    }
+    .tab{ 
+        width: 60%;
+        padding: 10px;
+        margin: 75px;
+    }
+    select{
+        margin-left: 90px;
+    }
+}
+@media (max-width:645px){
+    .tab{ 
+        height: 30vh;
+        width: 60%;
+        padding: 10px;
+        margin: 70px;
+    }    
+    .para-1{
+        font-size: 50px;
+    }
+    .title p{
+        font-size: 20px;
+    }
+    .nav-logo p{
+        font-size: 40px;
+    }
+    .btn-1{
+        padding: 12px 12px;       
+    }
+    select{
+        margin-left: 70px;
+    }
+}
+@media (max-width:520px){
+    .right{
+        display: none;
+    }
+    .para-1{
+        font-size: 40px;
+    }
+    .para-2{
+        text-align: center;
+        font-size: 10px;
+    }
+    li{
+        display: none;
+    }
+    .title p{
+        font-size: 20px;
+    }
+    .nav-logo p{
+        font-size: 35px;
+    }
+    
+    .btn-1{
+        padding: 10px 10px;       
+    }
+    .tab{ 
+        width: 60%;
+        padding: 10px;
+        margin: 80px;
+    }
+    select{
+        margin-left: 60px;
+        
+    }
+}
+@media (max-width:460px){
+    .tab{ 
+        width: 60%;
+        padding: 10px;
+        margin: 100px;
+    }
+    .para-1{
+        font-size: 40px;
+    }
+    .nav-logo p{
+        font-size: 30px;
+    }
+    .btn-1{
+        padding: 7px 7px;
+        font-size: 10px;       
+    }
+    .nav-1{
+        font-size: 13px;
+    }
+    .nav-items img{
+        width: 20px;
+        height: 20px;
+    }
+    select{
+        margin-left: 50px;   
+    }
+}
+@media (max-width:390px){
+    .tab{ 
+        padding: 20px;
+        margin: 110px;
+        width: 80%;
+    }
+    .para-1{
+        font-size: 30px;
+    }
+    .nav-1{
+        font-size: 10px;
+    }
+    select{
+        margin-left: 30px;
+        padding: 6px 4px;   
+    }
+    .nav-items img{
+        width: 15px;
+        height: 15px;
+    }
+}
